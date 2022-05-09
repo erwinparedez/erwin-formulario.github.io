@@ -86,10 +86,11 @@ input:focus {
   border-bottom: 1px solid rgba(42, 227, 193, 255);
 }
 
-#texto-contrasena {
+#texto-contraseña {
   text-align: right;
   display: block;
   margin-right: 40px;
+  font-size: 14px;
 }
 
 a {

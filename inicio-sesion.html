@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatiple" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión - Proyecto Formulario</title>
+    <link rel="stylesheet" href="./inicio-sesion.css" />
+  </head>
+  <body>
+    <div id="contenedor-resources">
+      <img
+        id="fondo-parte1"
+        src="./resources/marine-background-1.png"
+        alt="fondo-marino-parte1"
+      />
+      <img
+        id="fondo-parte2"
+        src="./resources/marine-background-2.png"
+        alt="fondo-marino-parte2"
+      />
+    </div>
+    <div id="contenedor-formulario">
+      <video
+        id="turtle"
+        src="./resources/turtle-video.mp4"
+        autoplay
+        controls
+        loop
+        muted
+      ></video>
+      <div id="caja-formulario">
+        <h2>INICIAR SESIÓN</h2>
+        <form>
+          <b>Correo o Nombre de Usuario</b>
+          <input type="text" required autofocus />
+          <b>Contraseña</b>
+          <input type="password" required />
+        </form>
+        <a id="texto-contrasena" href="#">¿Se te olvidó tu contraseña?</a>
+        <button>Iniciar sesión</button>
+        <p>
+          ¿No tienes una cuenta? <a href="./registro.html">Crear cuenta</a>.
+        </p>
+        <p id="separador">————————— o —————————</p>
+        <p>Registrate o inicia sesion con:</p>
+        <img
+          class="iconos"
+          src="./resources/facebook-icon.png"
+          alt="facebook-icon"
+        />
+        <img
+          class="iconos"
+          src="./resources/twitter-icon.png"
+          alt="twitter-icon"
+        />
+        <img
+          class="iconos"
+          src="./resources/instagram-icon.png"
+          alt="instagram-icon"
+        />
+        <img
+          class="iconos"
+          src="./resources/google-icon.png"
+          alt="google-icon"
+        />
+      </div>
+    </div>
+  </body>
+</html>

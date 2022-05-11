@@ -128,4 +128,5 @@ button:hover {
   box-sizing: border-box;
   padding: 1px;
   border-radius: 50%;
+  cursor: pointer;
 }

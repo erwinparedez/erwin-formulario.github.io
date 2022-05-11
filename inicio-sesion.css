@@ -32,7 +32,8 @@ body {
 }
 /* Formulario */
 h2 {
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 #contenedor-formulario {
@@ -54,10 +55,8 @@ h2 {
   z-index: 10;
 }
 
-form {
-  text-align: left;
-  padding-top: 20px;
-  padding-left: 40px;
+#caja-formulario {
+  padding-left: 3px;
 }
 
 p {
@@ -66,13 +65,16 @@ p {
   width: 300px;
 }
 
-b {
+label {
   display: block;
   color: whitesmoke;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 40px;
 }
 
 input {
-  width: 85%;
+  width: 75%;
   border: none;
   border-bottom: 1px solid white;
   background: none;
@@ -101,7 +103,7 @@ a {
 button {
   border: none;
   border-radius: 10px;
-  width: 80%;
+  width: 77%;
   height: 50px;
   margin: 25px 0 10px 0;
   background-color: rgba(42, 227, 193, 255);

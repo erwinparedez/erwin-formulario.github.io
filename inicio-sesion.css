@@ -90,8 +90,7 @@ input:focus {
 
 #texto-contraseña {
   text-align: right;
-  display: block;
-  margin-right: 40px;
+  margin-left: 120px;
   font-size: 14px;
 }
 

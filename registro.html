@@ -27,49 +27,42 @@
         width="386.663"
         height="580"
         autoplay
-        controls
         loop
         muted
       ></video>
-      <div id="caja-formulario">
+
+      <form id="caja-formulario" autocomplete="off">
         <h2>REGISTRARSE</h2>
-        <form autocomplete="off">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" required autofocus />
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" required autofocus />
 
-          <label for="nombre-usuario">Nombre de Usuario</label>
-          <input
-            type="text"
-            name="nombre-usuario"
-            id="nombre-usuario"
-            required
-          />
+        <label for="nombre-usuario">Nombre de Usuario</label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario" required />
 
-          <label for="correo">Correo Electrónico</label>
-          <input type="email" name="correo" id="correo" required />
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" name="correo" id="correo" required />
 
-          <label for="contraseña">Contraseña</label>
-          <input type="password" name="contraseña" id="contraseña" required />
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="contraseña" required />
 
-          <label for="confirm-contraseña">Confirmar Contraseña</label>
-          <input
-            type="password"
-            name="confirm-contraseña"
-            id="confirm-contraseña"
-            required
-          />
-          <p>
-            Al registrarte aceptas nuestros
-            <a href="#">Términos y Condiciones</a> y la
-            <a href="#">Pólitica de Privacidad</a>.
-          </p>
-          <button type="submit">Registrarse</button>
-        </form>
+        <label for="confirm-contraseña">Confirmar Contraseña</label>
+        <input
+          type="password"
+          name="confirm-contraseña"
+          id="confirm-contraseña"
+          required
+        />
+        <p>
+          Al registrarte aceptas nuestros
+          <a href="#">Términos y Condiciones</a> y la
+          <a href="#">Pólitica de Privacidad</a>.
+        </p>
+        <button type="submit">Registrarse</button>
         <p>
           ¿Ya tienes una cuenta?
           <a href="./inicio-sesion.html">Inicia sesión</a>.
         </p>
-      </div>
+      </form>
     </div>
   </body>
 </html>

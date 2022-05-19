@@ -27,20 +27,17 @@
         width="386.663"
         height="580"
         autoplay
-        controls
         loop
         muted
       ></video>
-      <div id="caja-formulario">
+      <form id="caja-formulario" autocomplete="off">
         <h2>INICIAR SESIÓN</h2>
-        <form autocomplete="off">
-          <label for="nombre">Correo o Nombre de Usuario</label>
-          <input type="text" name="nombre" id="nombre" required autofocus />
-          <label for="contraseña">Contraseña</label>
-          <input type="password" name="contraseña" id="contraseña" required />
-          <a id="texto-contraseña" href="#">¿Se te olvidó tu contraseña?</a>
-          <button type="submit">Iniciar sesión</button>
-        </form>
+        <label for="nombre">Correo o Nombre de Usuario</label>
+        <input type="text" name="nombre" id="nombre" required autofocus />
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="contraseña" required />
+        <a id="texto-contraseña" href="#">¿Se te olvidó tu contraseña?</a>
+        <button type="submit">Iniciar sesión</button>
         <p>
           ¿No tienes una cuenta? <a href="./registro.html">Crear cuenta</a>.
         </p>
@@ -66,7 +63,7 @@
           src="./resources/google-icon.png"
           alt="google-icon"
         />
-      </div>
+      </form>
     </div>
   </body>
 </html>
